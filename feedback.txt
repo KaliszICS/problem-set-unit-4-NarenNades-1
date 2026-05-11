@@ -1,0 +1,14 @@
+K(30%): 100
+I(30%): 92
+C(10%): 100
+A(30%): 95
+95.8% of 90 - 86.22%
+
+Don't use isInt == true, booleans are already booleans, no need to compare them to another boolean.
+Congratulations message is happening when they don't get at least 50%.
+if (isInt == true) {
+    answer = s.nextInt();
+}
+Can be done after your while loop without the if since it should be impossible to pass the while loop without it being true.
+No need to check num <= 20 since your random number already does that.
+Otherwise great work!
